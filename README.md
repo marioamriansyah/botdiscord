@@ -1,4 +1,4 @@
-# 🤖 Groq AI Bot
+# 🤖 Bot Discord
 
 <div align="center">
 
