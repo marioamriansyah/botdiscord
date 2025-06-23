@@ -1,0 +1,25 @@
+{
+  "name": "hybrid-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord AI bot with a clean UI",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-only": "node src/index.js --no-deploy",
+    "dev": "nodemon src/index.js",
+    "deploy-and-run": "node src/index.js --register"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.71",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "groq-sdk": "^0.3.1",
+    "mongoose": "^7.5.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "type": "module"
+}
